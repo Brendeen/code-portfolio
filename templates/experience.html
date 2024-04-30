@@ -1,0 +1,94 @@
+{% load static %}
+
+{% block experience %}
+
+<!--experience-->
+<section class="container mx-auto mt-24 mb-24 p-4 bg-black">
+    <h2 id="experience" class="text-2xl font-semibold text-center underline mb-24 text-white pt-6">Experience</h2>
+    <div class="grid grid-cols-2 gap-6 md:grid-cols-5 mb-20">
+        <!-- Layer 1: Top Row -->
+        <div class="text-center mb-4">
+            <img src="{% static 'images/python.png' %}" alt="Python logo" class="w-16 h-16 mx-auto bg-white rounded-lg p-2 expand-on-hover">
+            <p class="mt-2 text-white">Python</p>
+        </div>
+
+        <div class="text-center mb-4">
+            <img src="{% static 'images/javascript.png' %}" alt="Javascript logo" class="w-16 h-16 mx-auto bg-white rounded-lg p-2 expand-on-hover">
+            <p class="mt-2 text-white">JavaScript</p>
+        </div>
+
+        <div class="text-center mb-4">
+            <img src="{% static 'images/html.png' %}" alt="HTML5 logo" class="w-16 h-16 mx-auto bg-white rounded-lg p-2 expand-on-hover">
+            <p class="mt-2 text-white">HTML5</p>
+        </div>
+
+        <div class="text-center mb-4">
+            <img src="{% static 'images/css.png' %}" alt="CSS logo" class="w-16 h-16 mx-auto bg-white rounded-lg p-2 expand-on-hover">
+            <p class="mt-2 text-white">CSS3</p>
+        </div>
+
+        <div class="text-center mb-4">
+            <img src="{% static 'images/rn.png' %}" alt="React logo" class="w-16 h-16 mx-auto bg-white rounded-lg p-2 expand-on-hover">
+            <p class="mt-2 text-white">ReactJS</p>
+        </div>
+
+        <!-- Layer 2: Middle Row -->
+        <div class="text-center mb-4">
+            <img src="{% static 'images/next.png' %}" alt="Next.js logo" class="w-16 h-16 mx-auto bg-white rounded-lg p-2 expand-on-hover">
+            <p class="mt-2 text-white">Next.js</p>
+        </div>
+
+        <div class="text-center mb-4">
+            <img src="{% static 'images/node.png' %}" alt="Node.js logo" class="w-16 h-16 mx-auto bg-white rounded-lg p-2 expand-on-hover">
+            <p class="mt-2 text-white">Node.js</p>
+        </div>
+
+        <div class="text-center mb-4">
+            <img src="{% static 'images/django.png' %}" alt="Django logo" class="w-16 h-16 mx-auto bg-white rounded-lg p-2 expand-on-hover">
+            <p class="mt-2 text-white">Django</p>
+        </div>
+
+        <div class="text-center mb-4">
+            <img src="{% static 'images/github.png' %}" alt="Github logo" class="w-18 h-16 mx-auto bg-white rounded-lg p-2 expand-on-hover">
+            <p class="mt-2 text-white">Github</p>
+        </div>
+
+        <div class="text-center mb-4">
+            <img src="{% static 'images/git.png' %}" alt="Git logo" class="w-16 h-16 mx-auto bg-white rounded-lg p-2 expand-on-hover">
+            <p class="mt-2 text-white">Git</p>
+        </div>
+
+        <!-- Layer 3: Bottom row -->
+        <div class="text-center mb-4">
+            <img src="{% static 'images/vercel.svg' %}" alt="Vercel logo" class="w-16 h-16 mx-auto bg-white rounded-lg p-2 expand-on-hover">
+            <p class="mt-2 text-white">Vercel</p>
+        </div>
+
+        <div class="text-center mb-4">
+            <img src="{% static 'images/netlify.png' %}" alt="Netlify logo" class="w-16 h-16 mx-auto bg-white rounded-lg p-2 expand-on-hover">
+            <p class="mt-2 text-white">Netlify</p>
+        </div>
+
+        <div class="text-center mb-4">
+            <img src="{% static 'images/postgres.png' %}" alt="Postgres logo" class="w-16 h-16 mx-auto bg-white rounded-lg p-2 expand-on-hover">
+            <p class="mt-2 text-white">Postgres</p>
+        </div>
+
+        <div class="text-center mb-4">
+            <img src="{% static 'images/figma.png' %}" alt="Figma logo" class="w-16 h-16 mx-auto bg-white rounded-lg p-2 expand-on-hover">
+            <p class="mt-2 text-white">Figma</p>
+        </div>
+
+        <div class="text-center mb-4">
+            <img src="{% static 'images/tailwind.png' %}" alt="Tailwind logo" class="w-16 h-16 mx-auto bg-white rounded-lg p-2 expand-on-hover">
+            <p class="mt-2 text-white">Tailwind</p>
+        </div>
+<!-- write jupyter notebooks here too -->
+    </div>
+    <!-- Resume link -->
+    <p class="text-white mb-4 text-center">
+        Check out my full resume | <a href="{% static 'Brenden Moore - Resume.pdf' %}" class="text-blue-400 underline hover:text-blue-500">here</a> |
+    </p>
+</section>
+
+{% endblock %}

@@ -1,0 +1,42 @@
+{% load static %}
+
+{% block about %}
+
+<!--about-->
+<h2 id="about" class="text-2xl font-semibold text-center underline mt-24 text-white pt-6">About</h2>
+<section class="container mx-auto mt-16 mb-32 p-4 bg-black border-white border-t-2 border-b-2">
+    <img src="{% static 'images/bren.jpg' %}" alt="Brenden headshot" class="flex mx-auto my-auto rounded-full mt-8 w-36 expand-on-hover">
+    <h2 class="text-2xl font-semibold text-center mt-8 text-white">Hi, I'm Brenden</h2>
+    <div class="w-1/2 h-auto mx-auto">
+        <p class="text-white text-center pt-6">
+            I'm a full-stack developer located in Washington state, with a wide background of frameworks and languages.
+            Creativity has always been something that comes naturally to me. I have always loved to create and build things
+            even from a young age, and software development is the perfect place to put my creativity and design skills to
+            use.
+        </p>
+        <p class="text-white text-center pt-6">
+            When I graduated from high school in 2021, I didn't know what to do with my life.
+            I decided to take a gap year and work in retail to save my money. Along the way I bought my first car, received
+            a promotion, and saved up as much money as I could for school. I heard about Code Fellows Bootcamp through one
+            of my friends, and at first I was skeptical. Though I had always been interested in tech, so I decided to give
+            it a try.
+        </p>
+        <p class="text-white text-center pt-6">
+            Immediately I clicked with code. I worked my way up from working with HTML and CSS to make basic static sites
+            off of Github, to creating full-stack web applications in a little over a year. Code is the perfect place I can
+            show off my creativity and design skills, creating software that is easy to use and functional is one of my many
+            passions.
+        </p>
+        <p class="text-white text-center pt-6">
+            When I'm not coding, I am probably gaming, listening to music, or skateboarding (when its nice out). Some of my
+            favorite games include Resident Evil, Spider-man 2, MGS5, Sifu and Dying light. I'm also a huge fan of anime and
+            comics, I have a big collection of Spider-man comics and various manga series like Chainsaw Man, One Punch Man,
+            Blood Lad and Soul Eater.
+        </p>
+        <p class="text-white text-center pt-6 mb-6">
+            Click to view my projects <a href="#projects" class="text-white bg-black hover:bg-gray-800 border-2 border-white focus:ring-2 rounded-2xl p-2"> ↓ </a>
+        </p>
+    </div>
+</section>
+
+{% endblock %}
