@@ -126,4 +126,5 @@ db.sqlite3
 
 # static folder
 static/CACHE
-static/src
+static/src/input.css
+static/src/output.css
